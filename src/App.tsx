@@ -223,8 +223,14 @@ export default function App() {
                 <button className="primary-cta" onClick={() => goTo('projects')}>
                   Explore my universe <Rocket size={18} />
                 </button>
-                <a className="secondary-cta" href="./Victor_Vengatesh_Resume.pdf" download>
-                  Download resume <Download size={18} />
+                <a 
+                  className="secondary-cta" 
+                  href="/resume/Victor_Vengatesh_Resume.pdf" 
+                  download="Victor_Vengatesh_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >                 
+                  Download resume <Download size={18} />                                                    
                 </a>
               </div>
               <div className="social-row">
